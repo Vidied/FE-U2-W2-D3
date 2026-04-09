@@ -8,13 +8,13 @@ $sizes: (
 );
 
 $spaziature: ("margin","padding");
-$displays: ("block", "inline","inline-block");
+$displays: ("block", "inline");
 
 @each $spazio in $spaziature {
     @each $display in $displays {
         @each $name, $value in $sizes {
             .#{$spazio}-#{$display}-#{$name} {
-                #{spazio}-#{$display}: $value
+                #{$spazio}-#{$display}: $value
             }
         }
     } 

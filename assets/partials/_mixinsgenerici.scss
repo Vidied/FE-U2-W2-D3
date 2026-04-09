@@ -5,3 +5,67 @@
   }
   color: $testo-colore;
 }
+
+.titolo {
+  @include titolo()
+}
+
+@mixin bg-viola-style {
+  background-color: $hero-colore;
+  color: $testo-colore
+}
+
+.bg-viola {
+  @include bg-viola-style;
+}
+
+@mixin btn-clean {
+  border: none;
+  padding: 4px 6px;
+  border-radius: 4px;
+  color: $testo-colore;
+}
+
+.btn-clean {
+  @include btn-clean()
+}
+
+@mixin d-inline-block {
+  display: inline-block;
+}
+
+.d-ib {
+  @include d-inline-block()
+}
+
+@mixin width($valore) {
+  width: $valore * 1%;
+}
+
+.boxW40 {
+  @include width(40)
+}
+
+.boxW100 {
+  @include width(100)
+}
+
+@mixin centratutto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centro {
+  @include centratutto;
+}
+
+@mixin inbetween {
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+}
+
+.spazio-centro {
+  @include inbetween()
+}
