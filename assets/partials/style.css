@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.margin-block-sm {
+  spazio-block: 0.5rem;
+}
+
+.margin-block-normal {
+  spazio-block: 1rem;
+}
+
+.margin-block-md {
+  spazio-block: 1.5rem;
+}
+
+.margin-block-lg {
+  spazio-block: 2rem;
+}
+
+.margin-block-xl {
+  spazio-block: 3rem;
+}
+
+.margin-block-xxl {
+  spazio-block: 5rem;
+}
+
+.margin-inline-sm {
+  spazio-inline: 0.5rem;
+}
+
+.margin-inline-normal {
+  spazio-inline: 1rem;
+}
+
+.margin-inline-md {
+  spazio-inline: 1.5rem;
+}
+
+.margin-inline-lg {
+  spazio-inline: 2rem;
+}
+
+.margin-inline-xl {
+  spazio-inline: 3rem;
+}
+
+.margin-inline-xxl {
+  spazio-inline: 5rem;
+}
+
+.margin-inline-block-sm {
+  spazio-inline-block: 0.5rem;
+}
+
+.margin-inline-block-normal {
+  spazio-inline-block: 1rem;
+}
+
+.margin-inline-block-md {
+  spazio-inline-block: 1.5rem;
+}
+
+.margin-inline-block-lg {
+  spazio-inline-block: 2rem;
+}
+
+.margin-inline-block-xl {
+  spazio-inline-block: 3rem;
+}
+
+.margin-inline-block-xxl {
+  spazio-inline-block: 5rem;
+}
+
+.padding-block-sm {
+  spazio-block: 0.5rem;
+}
+
+.padding-block-normal {
+  spazio-block: 1rem;
+}
+
+.padding-block-md {
+  spazio-block: 1.5rem;
+}
+
+.padding-block-lg {
+  spazio-block: 2rem;
+}
+
+.padding-block-xl {
+  spazio-block: 3rem;
+}
+
+.padding-block-xxl {
+  spazio-block: 5rem;
+}
+
+.padding-inline-sm {
+  spazio-inline: 0.5rem;
+}
+
+.padding-inline-normal {
+  spazio-inline: 1rem;
+}
+
+.padding-inline-md {
+  spazio-inline: 1.5rem;
+}
+
+.padding-inline-lg {
+  spazio-inline: 2rem;
+}
+
+.padding-inline-xl {
+  spazio-inline: 3rem;
+}
+
+.padding-inline-xxl {
+  spazio-inline: 5rem;
+}
+
+.padding-inline-block-sm {
+  spazio-inline-block: 0.5rem;
+}
+
+.padding-inline-block-normal {
+  spazio-inline-block: 1rem;
+}
+
+.padding-inline-block-md {
+  spazio-inline-block: 1.5rem;
+}
+
+.padding-inline-block-lg {
+  spazio-inline-block: 2rem;
+}
+
+.padding-inline-block-xl {
+  spazio-inline-block: 3rem;
+}
+
+.padding-inline-block-xxl {
+  spazio-inline-block: 5rem;
+}
+
+.btn-blu {
+  background-color: #0e6cff;
+}
+
+.btn-arancione {
+  background-color: #ff8700;
+}
+
+.btn-verde {
+  background-color: #4caf50;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+$sizes: (
+    "sm": 0.5rem,
+    "normal": 1rem,
+    "md": 1.5rem,
+    "lg": 2rem,
+    "xl": 3rem,
+    "xxl": 5rem,
+);
+
+$spaziature: ("margin","padding");
+$displays: ("block", "inline","inline-block");
+
+@each $spazio in $spaziature {
+    @each $display in $displays {
+        @each $name, $value in $sizes {
+            .#{$spazio}-#{$display}-#{$name} {
+                #{spazio}-#{$display}: $value
+            }
+        }
+    } 
+}

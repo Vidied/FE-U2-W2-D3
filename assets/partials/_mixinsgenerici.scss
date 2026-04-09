@@ -1,0 +1,7 @@
+@mixin titolo {
+  font: {
+    size: $fs-xxl;
+    weight: bold;
+  }
+  color: $testo-colore;
+}
